@@ -14,7 +14,7 @@ app
   .get("/", getMaze)
   .get("/update", updateMaze)
   .get("/reset", async (req, res) => {
-    await resetMaze();
+    resetMaze();
     res.sendStatus(202);
   });
 

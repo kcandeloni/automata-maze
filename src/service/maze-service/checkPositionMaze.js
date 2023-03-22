@@ -1,17 +1,12 @@
-import redisClient from "../../database/config/redis.js";
 import maze from "../../database/db.js";
 
-export async function checkPosition(i, j) {
-
+export function checkPosition(i, j) {
   let currentMaze;
-  const cachedMaze = await redisClient.get("cachedMaze");
-  console.log()
-  if (cachedMaze) {
-    currentMaze = JSON.parse(cachedMaze);
+  if (!maze["current"]) {
+    currentMaze = maze["init"];
   } else {
-    currentMaze = maze;
+    currentMaze = maze["current"];
   }
-
 
   if (currentMaze[i][j] > 1) {
     return currentMaze[i][j];

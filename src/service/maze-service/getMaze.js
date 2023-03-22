@@ -1,13 +1,11 @@
-import redisClient from "../../database/config/redis.js";
 import maze from "../../database/db.js";
 
-export async function getMaze() {
+export function getMaze() {
   let currentMaze;
-  const cachedMaze = await redisClient.get("cachedMaze");
-  if (cachedMaze) {
-    currentMaze = JSON.parse(cachedMaze);
+  if (!maze["current"]) {
+    currentMaze = maze["init"];
   } else {
-    currentMaze = maze;
+    currentMaze = maze["current"];
   }
 
   return currentMaze;
