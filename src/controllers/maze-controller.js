@@ -1,11 +1,11 @@
-import mazeService from "../service/maze-service.js";
+import mazeService from "../service/maze-service/index.js";
 
-export function updateMaze(req, res) {
-  let update = mazeService.updateMaze(30, 65)
-  res.send(update).status(200)
+export async function updateMaze(req, res) {
+  let update = await mazeService.updateMaze()
+  res.send(update).status(202)
 }
 
-export function getMaze(req, res) {
-  const matriz = mazeService.getMaze();
+export async function getMaze(req, res) {
+  const matriz = await mazeService.getMaze();
   res.send(matriz).status(200);
 }

@@ -1,7 +1,7 @@
 {
   "name": "labirinto-automato-stone",
   "version": "1.0.0",
-  "description": "",
+  "description": "Solução para labirinto automato stone.",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
   "author": "Kevin Candeloni",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "redis": "^4.6.5"
   }
 }
