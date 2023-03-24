@@ -4,8 +4,8 @@ import {
   updateMaze,
   getMaze
 } from "./controllers/maze-controller.js";
-
 import { move } from "./controllers/particle-controller.js";
+import { generate } from "./controllers/automata-controller.js";
 
 import { resetMaze } from "./service/maze-service/resetMaze.js";
 
@@ -16,6 +16,7 @@ app
   .get("/", getMaze)
   .get("/update", updateMaze)
   .get("/move", move)
+  .get("/generete", generate)
   .get("/reset", async (req, res) => {
     resetMaze();
     res.sendStatus(202);
