@@ -1,4 +1,4 @@
-import mazeService from "../service/maze-service/index.js";
+import mazeService from "../services/maze-service/index.js";
 
 export function updateMaze(req, res) {
   let update = mazeService.updateMaze()

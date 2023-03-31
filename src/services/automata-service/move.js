@@ -25,6 +25,10 @@ export default function move() {
     3: "W",
     4: "L",
   };
+  if (!Math.floor(Math.random() * 2)) {
+    direction[1] = "D";
+    direction[2] = "R";
+  }
   for (let i = 1; i < 5; i++) {
     if (automata[step.n].op[direction[i]] !== 0) {
       let { nextL, nextC, isValid } = particleService.validDirection(direction[i], step.n);

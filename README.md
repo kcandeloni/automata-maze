@@ -43,12 +43,23 @@ O modelo de propagação proposto consiste em que as células inativas transform
 Se você ocupar uma célula ativa você perde(*morre x_x*).
 Você ganha se chegar na ultima casa do labirinto.
 
+### Direções dos movimentos:
+```
+      U               U - up
+                      R - right
+  L       R           D - down
+                      L - fedt
+      D
+```
+
 <details>
   <summary>O labirinto tem 65 linhas x 85 colunas. Você inicia na primeira casa(0,0).
   
   Mas você pode fazer alterações nele modificando a matriz no arquivo `db.js` </summary>
 
 ```
+  INIT src/database/db.js
+
 [
   [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -118,7 +129,8 @@ Você ganha se chegar na ultima casa do labirinto.
   ]
 
 `RESPONSE`
-  R R R R R R R R R R R R R R R R R R R R R R R R R R R D U D U L D R R R R D R R R D L U R D R R R R R L R R U L D R D D D R D R D U R D D R U R R D D R R U D R D D L L R D R R R D D D R R U U U R U R D R D R U U D R R D R L L D R U R U U D R R L L D U R D R R D R L R D D D R D D U R R R D U L L R R D U R D R R R D U R R R D D R D D D U D D R D D D U U D U D U U D D U D U D U D U U U D U D D U D D D U U D U D D D D U D D D D D U U D U U D D D D U L R D D D D D L L L D L R L D D R R R D U D D D D U D U D U D D U D D D D D D D U U U D U D U D U U U D U D U D D U D D D U D U D U D D D D D U D D U D D U U D D U D L D D D
+  R R D D D R R D R R D D D R R R R R D R D D D D R R U D D L D R D D R U R R U R R L R R D D R R R D R R L D D U U R D L U U R U R U D R L D R R R L L D R R U R D R D D R D L L R L R R R R D R D R D R D R D D U L D D D U D D U U R D R U D R D D D D U D R U R D D L D D D R R U R D D D U R D U D U D R R D D D R U R R R D R D R D D D R D R D D R D L R R L R D R D U R R U R D R D D R D D R R U R U D R U D D D R D D L R R R R R L R R R R R
+// 214 moves
 
 ```
 </details>
