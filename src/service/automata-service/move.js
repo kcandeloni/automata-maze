@@ -3,6 +3,7 @@ import step from "../../database/step.js"
 import particleService from "../particle-service/index.js";
 import mazeService from "../maze-service/index.js";
 import goBack from "./goBack.js";
+import goBackMaze from "./goBackMaze.js";
 
 export default function move() {
   if (!automata[step.n]) {
@@ -38,5 +39,6 @@ export default function move() {
     }
   }
   goBack();
+  goBackMaze();
   return "Segue o jogo";
 }

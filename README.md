@@ -116,6 +116,10 @@ Você ganha se chegar na ultima casa do labirinto.
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4]
   ]
+
+`RESPONSE`
+  R R R R R R R R R R R R R R R R R R R R R R R R R R R D U D U L D R R R R D R R R D L U R D R R R R R L R R U L D R D D D R D R D U R D D R U R R D D R R U D R D D L L R D R R R D D D R R U U U R U R D R D R U U D R R D R L L D R U R U U D R R L L D U R D R R D R L R D D D R D D U R R R D U L L R R D U R D R R R D U R R R D D R D D D U D D R D D D U U D U D U U D D U D U D U D U U U D U D D U D D D U U D U D D D D U D D D D D U U D U U D D D D U L R D D D D D L L L D L R L D D R R R D U D D D D U D U D U D D U D D D D D D D U U U D U D U D U U U D U D U D D U D D D U D U D U D D D D D U D D U D D U U D D U D L D D D
+
 ```
 </details>
 

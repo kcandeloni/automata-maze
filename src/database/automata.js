@@ -4,10 +4,10 @@ const automata = {
     c: 0,
     step: 0,
     op: {
-      R: 1,
-      D: "",
-      W: "",
-      L: ""
+      R: "init",
+      D: "init",
+      W: "init",
+      L: "init"
     }
   }
 }
