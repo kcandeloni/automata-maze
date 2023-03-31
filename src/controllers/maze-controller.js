@@ -9,3 +9,8 @@ export function getMaze(req, res) {
   const matriz = mazeService.getMaze();
   res.send(matriz).status(200);
 }
+
+export function resetMaze(req, res) {
+  mazeService.resetMaze();
+  res.sendStatus(202);
+}
