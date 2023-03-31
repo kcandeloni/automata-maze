@@ -1,8 +1,8 @@
-import particle from "../../database/particle.js";
+import automata from "../../database/automata.js";
 import maze from "../../database/db.js";
 
-export function validDirection(direction) {
-  let { l, c } = particle;
+export function validDirection(direction, step) {
+  let { l, c } = automata[step];
   if (direction === "W") {
     l--;
   }
