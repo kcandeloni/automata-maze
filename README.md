@@ -1,8 +1,8 @@
-# Minha Solução para: Desafio do Labirinto Autômato Stone
+# Solução para: Desafio do Labirinto Autômato Stone
 
-### Aplicação back-end para que para resolver achar o caminho em um lábirinto
+### Aplicação back-end que acha o caminho em um lábirinto automâto
 
-## Pré-requisitos
+## Requisitos
 
 **Node.js** versão v16.16.0
 
@@ -16,7 +16,7 @@
 
 
 ### Sobre está (*pequena*) API:
- Este *projeto* não precisava necessáriamente precisaria ser uma API. Mas, quando soube do desafio da Stone, eu estava práticando com algumas técnologias e decidi unir o útil ao agradável.
+ Este *projeto* não precisava necessáriamente ser uma API. Mas, quando soube do desafio da Stone, eu estava práticando com algumas técnologias e decidi unir o útil ao agradável.
 
  E no fim, agora você pode ver o resultado no seu próprio navegador.
 
